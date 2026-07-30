@@ -1,0 +1,63 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Build
+*.o
+*.a
+*.out
+
+# IDE / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Test / Coverage
+coverage/
+*.cover
+.pytest_cache/
+
+# Local data
+data/
+*.db
+*.sqlite
+
+# WireGuard / Runtime
+*.conf
+!example*.conf
+wg0.conf
+
+# Temp
+tmp/
+temp/
